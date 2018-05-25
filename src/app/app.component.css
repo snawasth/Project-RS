@@ -1,0 +1,32 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+nav.navbar,
+#navbar {
+     background: #2B0A3D;
+}
+
+.navbar-brand
+{
+ color: #fff;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul a{
+    background: #2B0A3D;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/* 
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #49639a;
+} */
+
