@@ -11,9 +11,11 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 // import { GroceryListComponent } from './grocerylist/grocerylist.component'
 
 import { RouterModule, Routes } from '@angular/router';
+import { RegpageComponent } from './regpage/regpage.component';
 
 const appRoutes: Routes = [
    { path: 'loginpage', component: LoginpageComponent },
+   { path: 'regpage', component: RegpageComponent },
    
 ];
 
@@ -22,6 +24,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LoginpageComponent,
+    RegpageComponent,
     // GroceryAddComponent,
     // GroceryListComponent
   ],

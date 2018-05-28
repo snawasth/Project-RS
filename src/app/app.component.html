@@ -10,26 +10,28 @@
 <body>
   <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-sm navbar-light fixed-top" role="navigation">
+      
         <a class="navbar-brand" href="#">Project-RS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            
             <li class="active">
               <a href="#">Home</a>
             </li>
             <li>
               <a href="https://webmail.in.capgemini.com" target="_blank">Contact Us</a>
             </li>
-            
-            
-          </ul>
-        </div>
-        <form class="navbar-right">
-            <a [routerLink] = "['/loginpage']"><button class="btn btn-info navbar-button">Sign in</button></a>
-          
+            </ul>
+        
+        <form class="form-inline my-2 my-lg-0">
+            <a [routerLink] = "['/loginpage']"><button class="btn navbar-button my-2 my-sm-0">Sign in</button></a>
+            <a [routerLink] = "['/regpage']"><button class="btn navbar-button my-2 my-sm-0">Sign up</button></a>
           </form>
+        </div>
+          
       </nav>
         <!-- Navigation Bar -->
 

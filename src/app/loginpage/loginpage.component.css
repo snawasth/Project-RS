@@ -1,5 +1,10 @@
-p
+html
 {
+    background-color: #fffff3;
+}
+    p
+{
+    background-color: #fffff3;
     color: #e6e5f4;
     font-size: 50px;
 }

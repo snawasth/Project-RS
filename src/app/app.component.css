@@ -14,12 +14,37 @@ nav.navbar,
  font-family: Arial, Helvetica, sans-serif;
 }
 
-#navbar ul a{
+#navbar ul a,
+#navbar ul a .active
+{
     background: #876c94;
     color: #fff;
     padding: 10px;
     text-decoration: none;
 }
+
+.btn{
+    background-color: #fffff3 ;
+    color: #876c94;
+    margin-left: 10px;
+    box-shadow: none;
+}
+
+/* @media screen and (min-width: 575px){
+    #navbar ul a {
+    padding: 2px;
+    }
+} */
+
+.btn:hover{
+    background-color: #876c94;
+    color: #fffff3 ;
+    border-color: #000;
+}
+
+/* .btn:hover{
+    background-color: #ccc;
+} */
 
 /* .navbar-toggler-icon{
     background-color: #fff;
