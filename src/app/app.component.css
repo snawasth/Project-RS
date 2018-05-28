@@ -5,7 +5,7 @@ body{
 
 nav.navbar,
 #navbar {
-     background: #2B0A3D;
+     background: #876c94;
 }
 
 .navbar-brand
@@ -15,12 +15,15 @@ nav.navbar,
 }
 
 #navbar ul a{
-    background: #2B0A3D;
+    background: #876c94;
     color: #fff;
     padding: 10px;
     text-decoration: none;
 }
 
+/* .navbar-toggler-icon{
+    background-color: #fff;
+} */
 
 /* 
 .navbar-inverse .navbar-nav > .active > a,
