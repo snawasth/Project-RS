@@ -1,6 +1,7 @@
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+    /* height: 100% */
 }
 
 nav.navbar,
@@ -40,6 +41,16 @@ nav.navbar,
     background-color: #876c94;
     color: #fffff3 ;
     border-color: #000;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #876c94;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
 }
 
 /* .btn:hover{

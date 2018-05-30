@@ -7,17 +7,18 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
-// import { GroceryAddComponent } from './groceryadd/groceryadd.component'
-// import { GroceryListComponent } from './grocerylist/grocerylist.component'
 
 import { RouterModule, Routes } from '@angular/router';
 import { RegpageComponent } from './regpage/regpage.component';
 import { ThankuComponent } from './thanku/thanku.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 const appRoutes: Routes = [
    { path: 'loginpage', component: LoginpageComponent },
    { path: 'regpage', component: RegpageComponent },
    { path: 'thanku', component: ThankuComponent },
+   { path: 'homepage', component: HomepageComponent },
+
    
 ];
 
@@ -28,8 +29,7 @@ const appRoutes: Routes = [
     LoginpageComponent,
     RegpageComponent,
     ThankuComponent,
-    // GroceryAddComponent,
-    // GroceryListComponent
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
