@@ -17,11 +17,10 @@ const appRoutes: Routes = [
    { path: 'loginpage', component: LoginpageComponent },
    { path: 'regpage', component: RegpageComponent },
    { path: 'thanku', component: ThankuComponent },
-   { path: 'homepage', component: HomepageComponent },
+   { path: '', component: HomepageComponent },
 
    
 ];
-
 
 @NgModule({
   declarations: [

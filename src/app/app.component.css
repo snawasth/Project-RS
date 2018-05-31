@@ -24,6 +24,17 @@ nav.navbar,
     text-decoration: none;
 }
 
+/* ul.navbar-nav ul li{
+    color: #fff;
+    background:  #876c94;
+    padding: 10px;
+} */
+
+.navbar-light .navbar-collapse ul li{
+    padding: 5px;
+}
+
+
 .btn{
     background-color: #fffff3 ;
     color: #876c94;
