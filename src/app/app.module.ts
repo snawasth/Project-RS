@@ -13,6 +13,10 @@ import { RegpageComponent } from './regpage/regpage.component';
 import { ThankuComponent } from './thanku/thanku.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
+// import { FormGroup } from '@angular/forms';
+// import { FormControl } from '@angular/forms';
+// import { Validators } from '@angular/forms';
+
 const appRoutes: Routes = [
    { path: 'loginpage', component: LoginpageComponent },
    { path: 'regpage', component: RegpageComponent },
