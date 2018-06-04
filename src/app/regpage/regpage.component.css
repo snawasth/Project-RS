@@ -12,3 +12,6 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 45px;
 }
+button[type='submit']:disabled{
+    background-color: grey;
+}
